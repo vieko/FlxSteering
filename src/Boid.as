@@ -10,7 +10,6 @@ package
 		private var _maxForce:Number;
 		private var _maxSpeed:Number;
 		
-		
 		private var _circleRadius:int = 6; 		// The radius of the circle
 		private var _wanderAngle:Number = 0; 	// The change to the current direction. Produces sustained turned, keeps it from being jerky. Makes it smooth
 		private var _wanderChange:Number = 1; 	// The amount to change the angle each frame.
